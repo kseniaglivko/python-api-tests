@@ -46,6 +46,6 @@ pre-commit install
 
 ### Run all tests
 
-```python
+```
 pytest
 ```
