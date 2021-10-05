@@ -1,4 +1,4 @@
-from fixtures.user_info.model import AddUserInfo
+from fixtures.user_info.model import UserData, UserInfoResponse
 
 
 class TestLoginUser:
@@ -8,8 +8,11 @@ class TestLoginUser:
         2. Check that status code is 201
         3. Check response
         """
-        data = AddUserInfo.random()
+        data = UserData.random()
         res = app.user_info.add_info(
-            user_id=auth_user.uuid, data=data, header=auth_user.header
+            user_id=auth_user.uuid,
+            data=data,
+            type_response=UserInfoResponse,
+            header=auth_user.header,
         )
         assert res.status_code == 200
