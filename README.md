@@ -1,4 +1,4 @@
-[![Build Status](https://teamcity.jetbrains.com/guestAuth/app/rest/builds/buildType:(id:PythonApiTests_Build)/statusIcon)](https://kseniaglivko.teamcity.com/viewType.html?buildTypeId=PythonApiTests_Build&guest=1)
+[![Build Status](http://teamcity/app/rest/builds/buildType:(id:PythonApiTests_Build)/statusIcon)](https://kseniaglivko.teamcity.com/viewType.html?buildTypeId=PythonApiTests_Build&guest=1)
 # Python api tests
 
 Api tests in Python
