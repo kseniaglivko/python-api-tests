@@ -17,6 +17,7 @@ packaging==21.0
 password==0.2
 platformdirs==2.3.0
 pluggy==1.0.0
+poetry==1.1.13
 pre-commit==2.15.0
 py==1.10.0
 pycodestyle==2.7.0

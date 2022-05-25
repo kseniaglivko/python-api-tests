@@ -1,7 +1,7 @@
 [![Build Status](https://app.travis-ci.com/kseniaglivko/python-api-tests.svg?branch=main)](https://app.travis-ci.com/kseniaglivko/python-api-tests)
 # Python api tests
 
-This is a tutorial project that shows how to implement api tests in Python
+Api tests in Python
 
 The project uses:
 1. Python
@@ -16,10 +16,12 @@ git: https://github.com/berpress/flask-restful-api
 
 url: https://stores-tests-api.herokuapp.com
 
+Swagger: https://app.swaggerhub.com/apis-docs/berpress/flask-rest-api/1.0.0
+
 
 ### How to start
 
-Use python 3.8 +
+Use python 3.9 +
 Create and activate virtual environments
 
 ```
