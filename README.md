@@ -1,4 +1,4 @@
-[![Build Status](https://app.travis-ci.com/kseniaglivko/python-api-tests.svg?branch=main)](https://app.travis-ci.com/kseniaglivko/python-api-tests)
+[![Build Status](http://teamcity/app/rest/builds/buildType:(id:PythonApiTests_Build)/statusIcon)](https://kseniaglivko.teamcity.com/viewType.html?buildTypeId=PythonApiTests_Build&guest=1)
 # Python api tests
 
 Api tests in Python
