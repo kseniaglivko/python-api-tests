@@ -42,3 +42,27 @@ class UserInfo(Validator):
             headers=header,
         )
         return self.structure(response, type_response=type_response)
+
+    @log("Delete user info")
+    def delete_info(self, user_id: int, header=None, type_response=None) -> Response:
+        """
+        https://app.swaggerhub.com/apis-docs/berpress/flask-rest-api/1.0.0#/userInfo/userInfoDelete # noqa
+        """
+        response = self.app.client.request(
+            method="DELETE",
+            url=f"{self.app.url}{self.PUT_USER_INFO.format(user_id)}",
+            headers=header,
+        )
+        return self.structure(response, type_response=type_response)
+
+    @log("Get user info")
+    def get_info(self, user_id: int, header=None, type_response=None) -> Response:
+        """
+        https://app.swaggerhub.com/apis-docs/berpress/flask-rest-api/1.0.0#/userInfo/userInfoGet # noqa
+        """
+        response = self.app.client.request(
+            method="GET",
+            url=f"{self.app.url}{self.PUT_USER_INFO.format(user_id)}",
+            headers=header,
+        )
+        return self.structure(response, type_response=type_response)
