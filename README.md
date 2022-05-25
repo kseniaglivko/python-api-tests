@@ -1,4 +1,4 @@
-[![Build status](https://teamcity.jetbrains.com/guestAuth/app/rest/builds/buildType:(id:TeamCityPluginsByJetBrains_TeamcityGoogleTagManagerPlugin_Build)/statusIcon](https://<teamcity_server_address>/viewType.html?buildTypeId=TeamCityPluginsByJetBrains_TeamcityGoogleTagManagerPlugin_Build)
+[![Build Status](https://app.travis-ci.com/kseniaglivko/python-api-tests.svg?branch=main)](https://app.travis-ci.com/kseniaglivko/python-api-tests)
 # Python api tests
 
 Api tests in Python
